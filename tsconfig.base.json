@@ -10,11 +10,13 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@s1/test-1": ["libs/test-1/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
